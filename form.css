@@ -1,9 +1,10 @@
-* {
+* { 
   box-sizing: border-box;
 }
 
 body{
-  background-color: rgb(172, 233, 237);
+  background-color: white;
+  /* background-color: rgb(172, 233, 237); */
   color: white;
   line-height: 1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,7 +31,8 @@ body{
  ul{
   list-style: none;
   padding: 0;
-  color: rgb(2, 59, 163);
+  color: rgb(0, 38, 109);
+  font-size: 22px;
 }
 
 span{
@@ -55,12 +57,14 @@ span{
 
 .myInfo{
   background-color: white;
-  color: rgb(2, 59, 163);
+  color: rgb(0, 38, 109);
 }
 
 .contact{
-  background-color: rgb(54, 105, 201);
+  background-color: rgb(0, 38, 109);
+  /* background-color: rgb(54, 105, 201); */
 }
+
 
 /*FORM STYLES*/
 
@@ -73,6 +77,7 @@ span{
 
 .contact form label{
   display: block;
+  
 }
 
 .contact form p{
